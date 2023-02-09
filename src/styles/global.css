@@ -1,0 +1,19 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue: #0d1a2d;
+  --Very-dark-blue: hsl(216, 50%, 16%);
+  --Very-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background: linear-gradient(180deg, #0d1a2d 0, #042d5e 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Soft-blue);
+}
